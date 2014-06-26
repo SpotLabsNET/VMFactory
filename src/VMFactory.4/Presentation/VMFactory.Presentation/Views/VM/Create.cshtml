@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "VM Request";
+}
+
+<h2>VM Request</h2>
+
+@using (Html.BeginForm()) { 
+
+<label for="Template">Template:</label>
+
+<br />
+<p>Would you like a specific template? Request it @Html.ActionLink("here", "Create", "VMTemplateRequest") </p>
+    <input type="submit" value="Get VM" />
+
+}
+
+

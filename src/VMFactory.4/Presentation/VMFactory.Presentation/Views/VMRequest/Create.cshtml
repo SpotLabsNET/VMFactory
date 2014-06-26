@@ -1,0 +1,110 @@
+﻿@model VMFactory.Api.Data.Models.VMRequest
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>VMRequest</legend>
+
+@*        <div class="editor-label">
+            @Html.LabelFor(model => model.DisplayName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.DisplayName)
+            @Html.ValidationMessageFor(model => model.DisplayName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MachineName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MachineName)
+            @Html.ValidationMessageFor(model => model.MachineName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MDTConfigurationSettings)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MDTConfigurationSettings)
+            @Html.ValidationMessageFor(model => model.MDTConfigurationSettings)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.TargetConfiguration)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.TargetConfiguration)
+            @Html.ValidationMessageFor(model => model.TargetConfiguration)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.RequestStatus, "RequestStatu")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("RequestStatus", String.Empty)
+            @Html.ValidationMessageFor(model => model.RequestStatus)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.LastUpdated)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.LastUpdated)
+            @Html.ValidationMessageFor(model => model.LastUpdated)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ProcessLog)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.ProcessLog)
+            @Html.ValidationMessageFor(model => model.ProcessLog)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.CreatedOn)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.CreatedOn)
+            @Html.ValidationMessageFor(model => model.CreatedOn)
+        </div>
+        *@
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.CreatedBy, "Email Address")
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(model => model.CreatedBy, new { @readonly = "readonly" })
+            @Html.ValidationMessageFor(model => model.CreatedBy)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.TemplateId, "VM Template")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("TemplateId", String.Empty)
+            @Html.ValidationMessageFor(model => model.TemplateId)
+            <p>Would you like a specific template? Request it @Html.ActionLink("here", "Create", "VMTemplateRequest") </p>
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+@*    @Html.ActionLink("Back to List", "Index")*@
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="a09ed975-0af6-4d75-a457-201197e6f3e9" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="428aed5e-9b1c-415b-95d3-ee00d2b7ed2c" name="Presentation Layer">
+      <childLayers>
+        <layer Id="f0ecf74a-95d4-4094-b557-ad898caa68d2" name="VMF Self-Service Site" />
+        <layer Id="c64f3f5b-db7a-4bee-89a0-5eed11833851" name="..." />
+      </childLayers>
+    </layer>
+    <layer Id="f3e7f9de-8c60-4f9f-a841-a6967c561e22" name="Services Layer">
+      <childLayers>
+        <layer Id="370390a9-8b23-4bcc-be20-54657e93a96c" name="RequestVMSvc" />
+        <layer Id="e0b19243-03f0-49c1-ac2a-85054bb33b32" name="GetVMState" />
+      </childLayers>
+    </layer>
+    <layer Id="71b8dfdc-9dd0-472a-a480-f0a90b8f9fdb" name="Backbone Layer">
+      <childLayers>
+        <layer Id="513e25e0-53ba-4172-9451-3581a7839d5a" name="Orchestration module (powershell)" />
+        <layer Id="a0164d3a-e1ef-454a-8f31-a77f00f06338" name="Hyper-V" />
+        <layer Id="4d2872d0-4ad3-46b8-bca7-0105f245294e" name="VMF Deployment Engine" />
+        <layer Id="4868ddda-55ed-4708-9006-00d870a075e5" name="MDT" />
+      </childLayers>
+    </layer>
+    <layer Id="b3968ff1-0e16-47ac-a39d-2487c85e67ef" />
+    <layer Id="3414c8f4-c451-475e-b658-bd146a509740" name="Data Layer">
+      <childLayers>
+        <layer Id="b23ea6da-6f2d-4550-bb30-1a8e71cb08bf" name="File System / Shared folder" />
+        <layer Id="575ac2d9-fad0-485d-8138-d457b70ac87b" name="SQL" />
+        <layer Id="6efdc23a-1ba2-4c9e-aaa6-c77120c0c4fc" name="Azure Storage" />
+      </childLayers>
+    </layer>
+  </layers>
+</layerModel>

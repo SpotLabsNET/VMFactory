@@ -1,0 +1,4 @@
+﻿<Config>
+  <VmId>10003</VmId>
+  <VmStatusServiceUrl>http://localhost/VMRequestManagement.svc</VmStatusServiceUrl>
+</Config>

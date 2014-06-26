@@ -1,0 +1,3 @@
+﻿$GETVHD.VMid
+$GETVHD.VHDObject
+$GETVHD.VHDObject = Get-VHD -VMId $VMid

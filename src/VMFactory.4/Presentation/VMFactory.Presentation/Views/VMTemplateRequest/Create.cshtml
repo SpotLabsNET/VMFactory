@@ -1,0 +1,78 @@
+﻿@model VMFactory.Api.Data.Models.VMTemplateRequest
+
+@{
+    ViewBag.Title = "Create";
+}
+
+
+<script>
+    function ClearText(textarea)
+    {
+        if (textarea.value == 'Describe your template request here.') {
+            textarea.value = '';
+        }
+    }
+
+    function FillHintText(textarea) {
+        if (textarea.value == '') {
+            textarea.value = 'Describe your template request here.';
+        }
+    }
+
+
+</script>
+
+<h2>Create</h2>
+
+<p>
+Templates are at the moment request based. <br />
+Thus, if you have a specific request, describe it in the following text area. <br />
+A human controller will evaluate your request and queue it in the templates creation process.
+</p>
+
+
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>VMTemplateRequest</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.UserEmailAddress)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.UserEmailAddress)
+            @Html.ValidationMessageFor(model => model.UserEmailAddress)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.UserName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.UserName)
+            @Html.ValidationMessageFor(model => model.UserName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.RequestDetail)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.RequestDetail)
+            @Html.ValidationMessageFor(model => model.RequestDetail)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+@*<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>*@
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

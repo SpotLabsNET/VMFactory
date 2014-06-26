@@ -1,0 +1,2 @@
+rem PowerShell.exe -ExecutionPolicy Unrestricted -File VMCopyAndImport.ps1 -Source = "C:\Pro\RangersVM.Template" -Destination = "C:\Pro\RangersVM" -VMPath = "C:\Pro\RangersVM\Virtual Machines\82996FC1-2120-4150-8E30-05FD64EC09B2.XML" -VMName = RangersVM
+PowerShell.exe -ExecutionPolicy Unrestricted -File VMCopyAndImport.ps1 "C:\Pro\RangersVM.Template" "C:\Pro\RangersVM" "C:\Pro\RangersVM\Virtual Machines\82996FC1-2120-4150-8E30-05FD64EC09B2.XML" "RangersVM"

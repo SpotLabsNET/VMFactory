@@ -1,0 +1,47 @@
+﻿@model IEnumerable<VMFactory.Api.Data.Models.VMOutput>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>List of available VMs ready for pickup</h2>
+
+<p>
+    In our records, we have found that we have the following ready available VMs ready for pickup. Just follow the download link!
+</p>
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.VMRequest.DisplayName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FileName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DownloadUrl)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CreatedOn)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.VMRequest.DisplayName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FileName)
+        </td>
+        <td>
+            <a href="@Html.ValueFor(modelItem => item.DownloadUrl)" target="_blank">Download Now!</a>
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CreatedOn) UTC
+        </td>
+    </tr>
+}
+
+</table>

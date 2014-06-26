@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title = "Request Template";
+}
+
+
+<script>
+    function ClearText(textarea)
+    {
+        if (textarea.value == 'Describe your template request here.') {
+            textarea.value = '';
+        }
+    }
+
+    function FillHintText(textarea) {
+        if (textarea.value == '') {
+            textarea.value = 'Describe your template request here.';
+        }
+    }
+
+
+</script>
+
+
+<h2>RequestTemplate</h2>
+@using (Html.BeginForm("CreateRequestTemplate", "VM", FormMethod.Post)) { 
+
+<p>
+Templates are at the moment request based. <br />
+Thus, if you have a specific request, describe it in the following text area. <br />
+A human controller will evaluate your request and queue it in the templates creation process.
+</p>
+
+<p>
+    <label for="RequesterEmail">Your name</label>
+    @Html.TextBox("RequesterName", "")
+</p>    
+  
+<p>
+    <label for="RequesterEmail">Your email address</label>
+    @Html.TextBox("RequesterEmail", "")
+</p>    
+<p>
+    <label for="TemplateRequestText">Your request</label>
+    @Html.TextArea("TemplateRequestText", "Describe your template request here.", new { rows = 5, columns = 50, onClick="ClearText(this);", onkeydown="ClearText(this);", onmouseout="FillHintText(this)", placeholder="sample"})
+</p>
+    
+    <input type="submit" id="formRequest" value="Submit request." />
+}

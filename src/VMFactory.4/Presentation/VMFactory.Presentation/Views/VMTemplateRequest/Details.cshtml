@@ -1,0 +1,36 @@
+﻿@model VMFactory.Api.Data.Models.VMTemplateRequest
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>VMTemplateRequest</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.UserEmailAddress)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.UserEmailAddress)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.UserName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.UserName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.RequestDetail)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.RequestDetail)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

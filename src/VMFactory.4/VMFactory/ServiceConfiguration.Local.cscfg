@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="VMFactory" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="3" osVersion="*" schemaVersion="2013-10.2.2">
+  <Role name="VMFactory.Presentation">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="Admin" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCEDCnHAA/0DKKSEBuOenSU4cwDQYJKoZIhvcNAQEBBQAEggEAbS4U/ASS1JhEZqXsLyqWPDH97WOGxBwyM25CcgkP0WYIK0qAbkT0UT5IsozyRP3/TPXwUm7QYBvyeQG2StDXW/Z/KYBSlpirHAkvQkpkp7l1xzKixvl3UcWTCE1PFe6XpxqMgNm7M9Mpg2e52mnkxPZSe3gg+P6M9exmGcoStWmPn6R9z4/XtWmyPFmK0XUl/RqUDUy+I/NXkNnEu0GUwxKboz3Q+8ASIhC0nsjKZ5DAyV1mO6SDPa3qxwQ3uZZ1Z9GM8tN83Vqvnr5ZnBjr0WU4q7UxCEonr2C+WQyuhbSXc66GHUhQVNrt2voUHw50y+y3InXTSl9m9vuZ9gIdqzAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECE7Xlzif4jwVgBAPk98UBEc36g9QjjFHar17" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2014-10-17T23:59:59.0000000-05:00" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="SSL" thumbprint="F09AF470DA41E188B8B9522292AAC463A7EF051C" thumbprintAlgorithm="sha1" />
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="D20079DC94EAF0B672680D82D0841B18BDD18753" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+</ServiceConfiguration>

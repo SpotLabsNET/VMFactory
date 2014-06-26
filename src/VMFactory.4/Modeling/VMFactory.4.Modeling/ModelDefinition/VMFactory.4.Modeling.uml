@@ -1,0 +1,2589 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner"
+  dslVersion="1.0.0.0"
+  Id="164a7e7e-31fe-4de7-a6bc-c7e95a2d2edc"
+  name="VMFactory.4.Modeling" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction
+        Id="86eccd59-e9fa-40e8-bb30-0d0b9e25c3da"
+        name="Sequence1"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="74bd1221-9ba0-4add-be91-930144ae0853"
+            name="BehaviorExecutionSpecification1">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="03f6bd35-77af-40f3-94a5-cfb6950036ea"
+                LastKnownName="VMFactory"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="bd8aa4f7-53e9-4036-80ee-60d71b644d14"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="8eafc5f5-1181-4747-a9f0-4754a5d6e2ff"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="066cbbc4-dbb3-4f75-aef4-9084a6ab985a"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="b0d8e221-5da4-4fbc-86d1-fd4b2817aca4"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="d545ec24-89ae-42ba-aa9c-26022c2f5393"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="f5f39822-9cff-4b07-971e-9b0acb30d885"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="09568e48-bbd7-4c32-920c-ee83c379fba0"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="b4063759-39f4-4b07-be5b-329935b0fc27"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="311b2a9c-51a8-43d6-801d-3d222834f5a9"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="8eafc5f5-1181-4747-a9f0-4754a5d6e2ff"
+            name="ExecutionOccurrenceSpecification1">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="a5397115-27e7-4966-b7c5-4dabaf621a75"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="03f6bd35-77af-40f3-94a5-cfb6950036ea"
+                LastKnownName="VMFactory"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="741b1b79-af9d-44ce-af5d-ff2535393de0"
+            name="MessageOccurrenceSpecification1">
+            <covered>
+              <lifelineMoniker
+                Id="2526e516-305e-40f4-bbbe-b6818bea916f"
+                LastKnownName="User"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="066cbbc4-dbb3-4f75-aef4-9084a6ab985a"
+            name="MessageOccurrenceSpecification2">
+            <covered>
+              <lifelineMoniker
+                Id="03f6bd35-77af-40f3-94a5-cfb6950036ea"
+                LastKnownName="VMFactory"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="b0d8e221-5da4-4fbc-86d1-fd4b2817aca4"
+            name="MessageOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="03f6bd35-77af-40f3-94a5-cfb6950036ea"
+                LastKnownName="VMFactory"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="3e8924cb-a3c1-4a3a-88ec-56b17b818f75"
+            name="BehaviorExecutionSpecification2">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="03f6bd35-77af-40f3-94a5-cfb6950036ea"
+                LastKnownName="VMFactory"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="f5f39822-9cff-4b07-971e-9b0acb30d885"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="d545ec24-89ae-42ba-aa9c-26022c2f5393"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="560d12c3-5363-4295-8f63-cfeb328b172f"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="d545ec24-89ae-42ba-aa9c-26022c2f5393"
+            name="ExecutionOccurrenceSpecification3">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="70e7683a-5ae6-42e2-8ebc-1f5030c367e8"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="03f6bd35-77af-40f3-94a5-cfb6950036ea"
+                LastKnownName="VMFactory"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="560d12c3-5363-4295-8f63-cfeb328b172f"
+            name="MessageOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="03f6bd35-77af-40f3-94a5-cfb6950036ea"
+                LastKnownName="VMFactory"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="f5f39822-9cff-4b07-971e-9b0acb30d885"
+            name="ExecutionOccurrenceSpecification4">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="a32a28b0-ad29-4a5a-8eed-0ade6869a098"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="03f6bd35-77af-40f3-94a5-cfb6950036ea"
+                LastKnownName="VMFactory"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="5a5ed0fa-13ac-4238-9ac7-5d8065760254"
+            name="BehaviorExecutionSpecification3">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="e5ddbcb5-bb1f-49d5-b301-40f954fdb323"
+                LastKnownName="HyperV"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="c3afc03c-2eb9-4599-bbfe-33df2548f146"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="62e29acb-369d-412a-8aab-140ba7b43257"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="8db6bf74-80a1-4f4b-a151-d4ad05cedd9c"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="ffcbb898-24ec-4f88-a593-000677f0d31f"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="62e29acb-369d-412a-8aab-140ba7b43257"
+            name="ExecutionOccurrenceSpecification5">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="a0bb8c56-7a8d-4c5c-8df5-448741952cf3"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="e5ddbcb5-bb1f-49d5-b301-40f954fdb323"
+                LastKnownName="HyperV"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="8db6bf74-80a1-4f4b-a151-d4ad05cedd9c"
+            name="MessageOccurrenceSpecification6">
+            <covered>
+              <lifelineMoniker
+                Id="e5ddbcb5-bb1f-49d5-b301-40f954fdb323"
+                LastKnownName="HyperV"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="09568e48-bbd7-4c32-920c-ee83c379fba0"
+            name="MessageOccurrenceSpecification5">
+            <covered>
+              <lifelineMoniker
+                Id="03f6bd35-77af-40f3-94a5-cfb6950036ea"
+                LastKnownName="VMFactory"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="ffcbb898-24ec-4f88-a593-000677f0d31f"
+            name="MessageOccurrenceSpecification7">
+            <covered>
+              <lifelineMoniker
+                Id="e5ddbcb5-bb1f-49d5-b301-40f954fdb323"
+                LastKnownName="HyperV"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="b4063759-39f4-4b07-be5b-329935b0fc27"
+            name="MessageOccurrenceSpecification8">
+            <covered>
+              <lifelineMoniker
+                Id="03f6bd35-77af-40f3-94a5-cfb6950036ea"
+                LastKnownName="VMFactory"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="c3afc03c-2eb9-4599-bbfe-33df2548f146"
+            name="ExecutionOccurrenceSpecification6">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="2c78282b-1812-4391-8c37-4ac10c68c91b"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="e5ddbcb5-bb1f-49d5-b301-40f954fdb323"
+                LastKnownName="HyperV"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="7c659baf-4a39-45d3-acc0-1d5fab177c54"
+            name="BehaviorExecutionSpecification4">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="e5ddbcb5-bb1f-49d5-b301-40f954fdb323"
+                LastKnownName="HyperV"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="399fd9f0-1085-4962-9446-7e0a853d62d1"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="566d3318-f0a0-4423-b857-54762021ae55"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="d3dfe17e-ab27-4f8d-9554-852a73be2842"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="083afb09-2ee7-4f52-9cc7-fedd307d996a"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="566d3318-f0a0-4423-b857-54762021ae55"
+            name="ExecutionOccurrenceSpecification7">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="3c550721-d938-42e7-9f9f-7676673bd09e"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="e5ddbcb5-bb1f-49d5-b301-40f954fdb323"
+                LastKnownName="HyperV"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="d3dfe17e-ab27-4f8d-9554-852a73be2842"
+            name="MessageOccurrenceSpecification10">
+            <covered>
+              <lifelineMoniker
+                Id="e5ddbcb5-bb1f-49d5-b301-40f954fdb323"
+                LastKnownName="HyperV"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="311b2a9c-51a8-43d6-801d-3d222834f5a9"
+            name="MessageOccurrenceSpecification9">
+            <covered>
+              <lifelineMoniker
+                Id="03f6bd35-77af-40f3-94a5-cfb6950036ea"
+                LastKnownName="VMFactory"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="0fda8d07-5b87-4ebb-aa0e-d64b18de7f9a"
+            name="BehaviorExecutionSpecification5">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="990127a0-aec8-434c-acfd-27f34cbff237"
+                LastKnownName="VM"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="40c94514-b999-4e16-8344-142961ddc480"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="7420f4e0-7712-40c1-97e7-2ba4d6c83fc4"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="6253bbe3-4d42-44d7-9cc3-7832578d33ee"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="6871dce8-ae39-442b-8053-277c8c69829f"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="36acf2de-c764-4bf7-a82e-49e73047f961"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="761e3e4b-2bec-4c35-8f43-208cdf937c23"
+                LastKnownName="MessageOccurrenceSpecification17"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="9b1d8339-285b-46e1-872a-c8759fe91311"
+                LastKnownName="ExecutionOccurrenceSpecification13"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="338ebe60-8206-4b96-8070-0a46ccae85fa"
+                LastKnownName="ExecutionOccurrenceSpecification14"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="7420f4e0-7712-40c1-97e7-2ba4d6c83fc4"
+            name="ExecutionOccurrenceSpecification9">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="702bddbd-44db-4845-95b2-50273966ebf1"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="990127a0-aec8-434c-acfd-27f34cbff237"
+                LastKnownName="VM"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="bd8aa4f7-53e9-4036-80ee-60d71b644d14"
+            name="ExecutionOccurrenceSpecification2">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="ee023bb6-0b98-450d-859b-f1217fc15d20"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="03f6bd35-77af-40f3-94a5-cfb6950036ea"
+                LastKnownName="VMFactory"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="083afb09-2ee7-4f52-9cc7-fedd307d996a"
+            name="MessageOccurrenceSpecification11">
+            <covered>
+              <lifelineMoniker
+                Id="e5ddbcb5-bb1f-49d5-b301-40f954fdb323"
+                LastKnownName="HyperV"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="6253bbe3-4d42-44d7-9cc3-7832578d33ee"
+            name="MessageOccurrenceSpecification12">
+            <covered>
+              <lifelineMoniker
+                Id="990127a0-aec8-434c-acfd-27f34cbff237"
+                LastKnownName="VM"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="399fd9f0-1085-4962-9446-7e0a853d62d1"
+            name="ExecutionOccurrenceSpecification8">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="33157576-89aa-4ac3-aab1-6e96d611af06"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="e5ddbcb5-bb1f-49d5-b301-40f954fdb323"
+                LastKnownName="HyperV"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="08b12e30-c594-450d-85ff-6b5055efcea5"
+            name="BehaviorExecutionSpecification6">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="03f6bd35-77af-40f3-94a5-cfb6950036ea"
+                LastKnownName="VMFactory"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="100a2da0-5aa5-48f9-8366-b9bc39dca1e6"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="2e923da0-e38a-4285-88d6-5674ed1fc384"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="4db92820-9b49-466e-b1e0-1a3e606db9fa"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="e4095693-519d-4fc2-a1eb-314deca1b7e4"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="2e923da0-e38a-4285-88d6-5674ed1fc384"
+            name="ExecutionOccurrenceSpecification11">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="43f05e3d-2b9c-401a-b331-356a47e4ba3c"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="03f6bd35-77af-40f3-94a5-cfb6950036ea"
+                LastKnownName="VMFactory"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="4db92820-9b49-466e-b1e0-1a3e606db9fa"
+            name="MessageOccurrenceSpecification14">
+            <covered>
+              <lifelineMoniker
+                Id="03f6bd35-77af-40f3-94a5-cfb6950036ea"
+                LastKnownName="VMFactory"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="6871dce8-ae39-442b-8053-277c8c69829f"
+            name="MessageOccurrenceSpecification13">
+            <covered>
+              <lifelineMoniker
+                Id="990127a0-aec8-434c-acfd-27f34cbff237"
+                LastKnownName="VM"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="e4095693-519d-4fc2-a1eb-314deca1b7e4"
+            name="MessageOccurrenceSpecification15">
+            <covered>
+              <lifelineMoniker
+                Id="03f6bd35-77af-40f3-94a5-cfb6950036ea"
+                LastKnownName="VMFactory"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="36acf2de-c764-4bf7-a82e-49e73047f961"
+            name="MessageOccurrenceSpecification16">
+            <covered>
+              <lifelineMoniker
+                Id="990127a0-aec8-434c-acfd-27f34cbff237"
+                LastKnownName="VM"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="100a2da0-5aa5-48f9-8366-b9bc39dca1e6"
+            name="ExecutionOccurrenceSpecification12">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="8258092e-73b8-420f-8a41-ad94b1f1e12a"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="03f6bd35-77af-40f3-94a5-cfb6950036ea"
+                LastKnownName="VMFactory"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="761e3e4b-2bec-4c35-8f43-208cdf937c23"
+            name="MessageOccurrenceSpecification17">
+            <covered>
+              <lifelineMoniker
+                Id="990127a0-aec8-434c-acfd-27f34cbff237"
+                LastKnownName="VM"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="8e0d4261-8400-4bb7-959a-b1b0f8e5473e"
+            name="BehaviorExecutionSpecification7">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="990127a0-aec8-434c-acfd-27f34cbff237"
+                LastKnownName="VM"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="338ebe60-8206-4b96-8070-0a46ccae85fa"
+                LastKnownName="ExecutionOccurrenceSpecification14"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="9b1d8339-285b-46e1-872a-c8759fe91311"
+                LastKnownName="ExecutionOccurrenceSpecification13"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="e001da1f-6acf-4cbd-baec-0a62a2d2e4ac"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="0e4e6ab4-772e-49a6-9aa4-dfcf0c6d6604"
+                LastKnownName="MessageOccurrenceSpecification19"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="cb869599-a5eb-441e-af24-56736a87f15d"
+                LastKnownName="MessageOccurrenceSpecification22"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="c44ed07b-14b9-42ec-9662-cefbf4766e29"
+                LastKnownName="MessageOccurrenceSpecification23"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="9b1d8339-285b-46e1-872a-c8759fe91311"
+            name="ExecutionOccurrenceSpecification13">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="78651cd1-cdb5-4ba1-b7f6-005314127ed9"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="990127a0-aec8-434c-acfd-27f34cbff237"
+                LastKnownName="VM"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="e001da1f-6acf-4cbd-baec-0a62a2d2e4ac"
+            name="MessageOccurrenceSpecification18">
+            <covered>
+              <lifelineMoniker
+                Id="990127a0-aec8-434c-acfd-27f34cbff237"
+                LastKnownName="VM"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="80304b5c-221c-4527-bc7d-281dee661b1c"
+            name="BehaviorExecutionSpecification8">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="1469a3dd-40f1-408c-9bf8-3e820fcafc42"
+                LastKnownName="MDT"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="015fcd4e-43c9-4824-9e0e-94610844755a"
+                LastKnownName="ExecutionOccurrenceSpecification16"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="d61ec2f9-e4b8-4a9f-a201-df9aede6f9e6"
+                LastKnownName="ExecutionOccurrenceSpecification15"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="98198ec0-aa98-4aa5-b720-6e222559a554"
+                LastKnownName="MessageOccurrenceSpecification20"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="456add81-0900-4db5-bf0e-d709355db0b0"
+                LastKnownName="MessageOccurrenceSpecification21"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="d61ec2f9-e4b8-4a9f-a201-df9aede6f9e6"
+            name="ExecutionOccurrenceSpecification15">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="d97bf68f-ee1f-49c4-819c-1f101dee7444"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="1469a3dd-40f1-408c-9bf8-3e820fcafc42"
+                LastKnownName="MDT"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="0e4e6ab4-772e-49a6-9aa4-dfcf0c6d6604"
+            name="MessageOccurrenceSpecification19">
+            <covered>
+              <lifelineMoniker
+                Id="990127a0-aec8-434c-acfd-27f34cbff237"
+                LastKnownName="VM"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="98198ec0-aa98-4aa5-b720-6e222559a554"
+            name="MessageOccurrenceSpecification20">
+            <covered>
+              <lifelineMoniker
+                Id="1469a3dd-40f1-408c-9bf8-3e820fcafc42"
+                LastKnownName="MDT"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="cb869599-a5eb-441e-af24-56736a87f15d"
+            name="MessageOccurrenceSpecification22">
+            <covered>
+              <lifelineMoniker
+                Id="990127a0-aec8-434c-acfd-27f34cbff237"
+                LastKnownName="VM"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="456add81-0900-4db5-bf0e-d709355db0b0"
+            name="MessageOccurrenceSpecification21">
+            <covered>
+              <lifelineMoniker
+                Id="1469a3dd-40f1-408c-9bf8-3e820fcafc42"
+                LastKnownName="MDT"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="015fcd4e-43c9-4824-9e0e-94610844755a"
+            name="ExecutionOccurrenceSpecification16">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="939d6bcb-0e21-4493-b776-6e0a8bba66c9"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="1469a3dd-40f1-408c-9bf8-3e820fcafc42"
+                LastKnownName="MDT"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="4a7767ff-05ea-4c19-a6c5-aae14ca3b74d"
+            name="BehaviorExecutionSpecification9">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="03f6bd35-77af-40f3-94a5-cfb6950036ea"
+                LastKnownName="VMFactory"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="8f240b18-91e6-4ce7-b410-5ab8db0a9079"
+                LastKnownName="ExecutionOccurrenceSpecification18"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="d6a258b3-5421-4409-ae4f-ecb34639933d"
+                LastKnownName="ExecutionOccurrenceSpecification17"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="677dab7a-759c-4faf-a3f8-37358a060b7b"
+                LastKnownName="MessageOccurrenceSpecification24"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="536187b3-c30e-4f38-9886-a2ddfcd5655f"
+                LastKnownName="MessageOccurrenceSpecification27"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="47d95a4e-2cc2-444d-981a-69cbcf0999b1"
+                LastKnownName="MessageOccurrenceSpecification30"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="87416c64-5ef2-4949-adef-2db7f108b11a"
+                LastKnownName="MessageOccurrenceSpecification31"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="fee912c5-4982-4171-b6ce-bb880ce2d45a"
+                LastKnownName="ExecutionOccurrenceSpecification23"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="36cd61de-3335-47cd-aa3b-663b4a1d4793"
+                LastKnownName="ExecutionOccurrenceSpecification24"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="1ec68270-30d7-4956-8daa-d791562154e6"
+                LastKnownName="MessageOccurrenceSpecification33"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="5476e4b0-ba24-4cc9-8a61-5c763b433a2b"
+                LastKnownName="ExecutionOccurrenceSpecification25"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="32670267-c033-45d6-8a6f-a58ddb318bd7"
+                LastKnownName="ExecutionOccurrenceSpecification26"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="d8ff2960-60d2-41e4-afac-6b6a1a642088"
+                LastKnownName="MessageOccurrenceSpecification35"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="d6a258b3-5421-4409-ae4f-ecb34639933d"
+            name="ExecutionOccurrenceSpecification17">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="61bab31e-4aeb-445d-baf2-9f583ff81093"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="03f6bd35-77af-40f3-94a5-cfb6950036ea"
+                LastKnownName="VMFactory"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="677dab7a-759c-4faf-a3f8-37358a060b7b"
+            name="MessageOccurrenceSpecification24">
+            <covered>
+              <lifelineMoniker
+                Id="03f6bd35-77af-40f3-94a5-cfb6950036ea"
+                LastKnownName="VMFactory"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c44ed07b-14b9-42ec-9662-cefbf4766e29"
+            name="MessageOccurrenceSpecification23">
+            <covered>
+              <lifelineMoniker
+                Id="990127a0-aec8-434c-acfd-27f34cbff237"
+                LastKnownName="VM"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="932dd8e8-dca3-4bf0-a76a-28d6d306fe98"
+            name="BehaviorExecutionSpecification11">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="e5ddbcb5-bb1f-49d5-b301-40f954fdb323"
+                LastKnownName="HyperV"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="7b0e8fc0-1d60-479c-85be-afc0bc618b9a"
+                LastKnownName="ExecutionOccurrenceSpecification22"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="4b8ae80a-c5e7-4d9b-8347-e9dbab1ed177"
+                LastKnownName="ExecutionOccurrenceSpecification21"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="65afe679-846e-4b98-acfa-ffdbb53fa0f5"
+                LastKnownName="MessageOccurrenceSpecification28"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="3d679a76-8026-45ea-8b11-45441daa2b4a"
+                LastKnownName="MessageOccurrenceSpecification29"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="4b8ae80a-c5e7-4d9b-8347-e9dbab1ed177"
+            name="ExecutionOccurrenceSpecification21">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="53fba8f5-4829-46ed-bc33-074571383a3b"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="e5ddbcb5-bb1f-49d5-b301-40f954fdb323"
+                LastKnownName="HyperV"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="338ebe60-8206-4b96-8070-0a46ccae85fa"
+            name="ExecutionOccurrenceSpecification14">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="66c269d7-62b6-4742-8f02-dcbe7c55ed11"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="990127a0-aec8-434c-acfd-27f34cbff237"
+                LastKnownName="VM"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="536187b3-c30e-4f38-9886-a2ddfcd5655f"
+            name="MessageOccurrenceSpecification27">
+            <covered>
+              <lifelineMoniker
+                Id="03f6bd35-77af-40f3-94a5-cfb6950036ea"
+                LastKnownName="VMFactory"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="65afe679-846e-4b98-acfa-ffdbb53fa0f5"
+            name="MessageOccurrenceSpecification28">
+            <covered>
+              <lifelineMoniker
+                Id="e5ddbcb5-bb1f-49d5-b301-40f954fdb323"
+                LastKnownName="HyperV"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="40c94514-b999-4e16-8344-142961ddc480"
+            name="ExecutionOccurrenceSpecification10">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="67fb02d9-6ed7-4bb7-9a93-1052da4ab7c6"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="990127a0-aec8-434c-acfd-27f34cbff237"
+                LastKnownName="VM"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="47d95a4e-2cc2-444d-981a-69cbcf0999b1"
+            name="MessageOccurrenceSpecification30">
+            <covered>
+              <lifelineMoniker
+                Id="03f6bd35-77af-40f3-94a5-cfb6950036ea"
+                LastKnownName="VMFactory"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="3d679a76-8026-45ea-8b11-45441daa2b4a"
+            name="MessageOccurrenceSpecification29">
+            <covered>
+              <lifelineMoniker
+                Id="e5ddbcb5-bb1f-49d5-b301-40f954fdb323"
+                LastKnownName="HyperV"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="7b0e8fc0-1d60-479c-85be-afc0bc618b9a"
+            name="ExecutionOccurrenceSpecification22">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="89e12e4a-99aa-42ed-8887-9a913ed16788"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="e5ddbcb5-bb1f-49d5-b301-40f954fdb323"
+                LastKnownName="HyperV"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="87416c64-5ef2-4949-adef-2db7f108b11a"
+            name="MessageOccurrenceSpecification31">
+            <covered>
+              <lifelineMoniker
+                Id="03f6bd35-77af-40f3-94a5-cfb6950036ea"
+                LastKnownName="VMFactory"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="9afc2559-5494-459b-8bf7-56ae19be2579"
+            name="BehaviorExecutionSpecification12">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="03f6bd35-77af-40f3-94a5-cfb6950036ea"
+                LastKnownName="VMFactory"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="36cd61de-3335-47cd-aa3b-663b4a1d4793"
+                LastKnownName="ExecutionOccurrenceSpecification24"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="fee912c5-4982-4171-b6ce-bb880ce2d45a"
+                LastKnownName="ExecutionOccurrenceSpecification23"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="1f6fe05a-5c57-48c4-9b44-3bfefbf4705f"
+                LastKnownName="MessageOccurrenceSpecification32"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="fee912c5-4982-4171-b6ce-bb880ce2d45a"
+            name="ExecutionOccurrenceSpecification23">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="5400584d-d7ab-4186-aae6-22b5426d4042"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="03f6bd35-77af-40f3-94a5-cfb6950036ea"
+                LastKnownName="VMFactory"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="1f6fe05a-5c57-48c4-9b44-3bfefbf4705f"
+            name="MessageOccurrenceSpecification32">
+            <covered>
+              <lifelineMoniker
+                Id="03f6bd35-77af-40f3-94a5-cfb6950036ea"
+                LastKnownName="VMFactory"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="36cd61de-3335-47cd-aa3b-663b4a1d4793"
+            name="ExecutionOccurrenceSpecification24">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="4f8a7912-fb6e-41d3-b5d8-b72b8ac3db62"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="03f6bd35-77af-40f3-94a5-cfb6950036ea"
+                LastKnownName="VMFactory"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="1ec68270-30d7-4956-8daa-d791562154e6"
+            name="MessageOccurrenceSpecification33">
+            <covered>
+              <lifelineMoniker
+                Id="03f6bd35-77af-40f3-94a5-cfb6950036ea"
+                LastKnownName="VMFactory"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="a7f4b8d2-8934-4257-9e21-7e4fbf08d4eb"
+            name="BehaviorExecutionSpecification13">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="03f6bd35-77af-40f3-94a5-cfb6950036ea"
+                LastKnownName="VMFactory"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="32670267-c033-45d6-8a6f-a58ddb318bd7"
+                LastKnownName="ExecutionOccurrenceSpecification26"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="5476e4b0-ba24-4cc9-8a61-5c763b433a2b"
+                LastKnownName="ExecutionOccurrenceSpecification25"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="052475d7-c914-4983-a1de-4bc969d242a3"
+                LastKnownName="MessageOccurrenceSpecification34"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="5476e4b0-ba24-4cc9-8a61-5c763b433a2b"
+            name="ExecutionOccurrenceSpecification25">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="168e4a1c-b8d9-49f7-947b-513b17573d50"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="03f6bd35-77af-40f3-94a5-cfb6950036ea"
+                LastKnownName="VMFactory"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="052475d7-c914-4983-a1de-4bc969d242a3"
+            name="MessageOccurrenceSpecification34">
+            <covered>
+              <lifelineMoniker
+                Id="03f6bd35-77af-40f3-94a5-cfb6950036ea"
+                LastKnownName="VMFactory"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="32670267-c033-45d6-8a6f-a58ddb318bd7"
+            name="ExecutionOccurrenceSpecification26">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="7010e10b-ad9e-4dfe-a17d-13afbc970916"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="03f6bd35-77af-40f3-94a5-cfb6950036ea"
+                LastKnownName="VMFactory"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="24e3bbb5-a1e9-4d3c-b251-f704e6746f76"
+            name="BehaviorExecutionSpecification14">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="2526e516-305e-40f4-bbbe-b6818bea916f"
+                LastKnownName="User"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="f06c7edf-6ba3-4b21-9e75-ebee5a668784"
+                LastKnownName="ExecutionOccurrenceSpecification28"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="ea660e37-5cd7-498c-a8ad-bb2394bf44e5"
+                LastKnownName="ExecutionOccurrenceSpecification27"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="f6bb5b24-5799-4e23-998c-73c91f677ed7"
+                LastKnownName="MessageOccurrenceSpecification36"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="ea660e37-5cd7-498c-a8ad-bb2394bf44e5"
+            name="ExecutionOccurrenceSpecification27">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="ea77120c-e9e6-4ee2-ab30-1302d20b9a0b"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="2526e516-305e-40f4-bbbe-b6818bea916f"
+                LastKnownName="User"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="d8ff2960-60d2-41e4-afac-6b6a1a642088"
+            name="MessageOccurrenceSpecification35">
+            <covered>
+              <lifelineMoniker
+                Id="03f6bd35-77af-40f3-94a5-cfb6950036ea"
+                LastKnownName="VMFactory"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f6bb5b24-5799-4e23-998c-73c91f677ed7"
+            name="MessageOccurrenceSpecification36">
+            <covered>
+              <lifelineMoniker
+                Id="2526e516-305e-40f4-bbbe-b6818bea916f"
+                LastKnownName="User"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="8f240b18-91e6-4ce7-b410-5ab8db0a9079"
+            name="ExecutionOccurrenceSpecification18">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="2f81da08-4e90-4f28-88bd-448c4cb2777f"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="03f6bd35-77af-40f3-94a5-cfb6950036ea"
+                LastKnownName="VMFactory"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="f06c7edf-6ba3-4b21-9e75-ebee5a668784"
+            name="ExecutionOccurrenceSpecification28">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="67015fe8-ba31-49ff-89cd-391c2837e367"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="2526e516-305e-40f4-bbbe-b6818bea916f"
+                LastKnownName="User"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="2526e516-305e-40f4-bbbe-b6818bea916f"
+            name="User"
+            isActor="false"
+            lifelineDisplayName="User">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="741b1b79-af9d-44ce-af5d-ff2535393de0"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="ea660e37-5cd7-498c-a8ad-bb2394bf44e5"
+                LastKnownName="ExecutionOccurrenceSpecification27"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="f06c7edf-6ba3-4b21-9e75-ebee5a668784"
+                LastKnownName="ExecutionOccurrenceSpecification28"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="03f6bd35-77af-40f3-94a5-cfb6950036ea"
+            name="VMFactory"
+            isActor="false"
+            lifelineDisplayName="VMFactory">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="8eafc5f5-1181-4747-a9f0-4754a5d6e2ff"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="bd8aa4f7-53e9-4036-80ee-60d71b644d14"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="2e923da0-e38a-4285-88d6-5674ed1fc384"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="100a2da0-5aa5-48f9-8366-b9bc39dca1e6"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="d6a258b3-5421-4409-ae4f-ecb34639933d"
+                LastKnownName="ExecutionOccurrenceSpecification17"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="8f240b18-91e6-4ce7-b410-5ab8db0a9079"
+                LastKnownName="ExecutionOccurrenceSpecification18"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="e5ddbcb5-bb1f-49d5-b301-40f954fdb323"
+            name="HyperV"
+            isActor="false"
+            lifelineDisplayName="HyperV">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="62e29acb-369d-412a-8aab-140ba7b43257"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="c3afc03c-2eb9-4599-bbfe-33df2548f146"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="566d3318-f0a0-4423-b857-54762021ae55"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="399fd9f0-1085-4962-9446-7e0a853d62d1"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="4b8ae80a-c5e7-4d9b-8347-e9dbab1ed177"
+                LastKnownName="ExecutionOccurrenceSpecification21"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="7b0e8fc0-1d60-479c-85be-afc0bc618b9a"
+                LastKnownName="ExecutionOccurrenceSpecification22"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="990127a0-aec8-434c-acfd-27f34cbff237"
+            name="VM"
+            isActor="false"
+            lifelineDisplayName="VM">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="7420f4e0-7712-40c1-97e7-2ba4d6c83fc4"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="40c94514-b999-4e16-8344-142961ddc480"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="1469a3dd-40f1-408c-9bf8-3e820fcafc42"
+            name="MDT"
+            isActor="false"
+            lifelineDisplayName="MDT">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="d61ec2f9-e4b8-4a9f-a201-df9aede6f9e6"
+                LastKnownName="ExecutionOccurrenceSpecification15"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="015fcd4e-43c9-4824-9e0e-94610844755a"
+                LastKnownName="ExecutionOccurrenceSpecification16"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="ea065e57-8812-46b2-b612-daf37f4ed4ac"
+            name="Request Vm"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="741b1b79-af9d-44ce-af5d-ff2535393de0"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="066cbbc4-dbb3-4f75-aef4-9084a6ab985a"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="867037ac-4a32-47df-8f3a-bc12da083aa1"
+            name="Store Request"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="true">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="b0d8e221-5da4-4fbc-86d1-fd4b2817aca4"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="560d12c3-5363-4295-8f63-cfeb328b172f"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="fe41a9a8-e07e-45e5-8e5f-53eee1eb6588"
+            name="Create VM "
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="09568e48-bbd7-4c32-920c-ee83c379fba0"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="8db6bf74-80a1-4f4b-a151-d4ad05cedd9c"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="09295aab-5d45-40fb-9e66-bed9a22c0181"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="ffcbb898-24ec-4f88-a593-000677f0d31f"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="b4063759-39f4-4b07-be5b-329935b0fc27"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="1e805832-6c8e-4a74-9742-a10ea936edfd"
+            name="Boot VM"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="311b2a9c-51a8-43d6-801d-3d222834f5a9"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="d3dfe17e-ab27-4f8d-9554-852a73be2842"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="db014e5e-d0fd-4cfa-b5f9-7a827730d764"
+            name="Boot"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="083afb09-2ee7-4f52-9cc7-fedd307d996a"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="6253bbe3-4d42-44d7-9cc3-7832578d33ee"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="e64fd457-01df-4091-bebb-b0ac6009befc"
+            name="Get Sequence Configuration"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="6871dce8-ae39-442b-8053-277c8c69829f"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="4db92820-9b49-466e-b1e0-1a3e606db9fa"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="e45f9f5e-d3f6-4666-81cd-69e7ea16e770"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="e4095693-519d-4fc2-a1eb-314deca1b7e4"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="36acf2de-c764-4bf7-a82e-49e73047f961"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="44442884-7c13-479b-ba13-c2c204179d5b"
+            name="Run MDT Task Sequence"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="true">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="761e3e4b-2bec-4c35-8f43-208cdf937c23"
+                LastKnownName="MessageOccurrenceSpecification17"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="e001da1f-6acf-4cbd-baec-0a62a2d2e4ac"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="0da217b0-1949-4dee-b3cb-dd1ec9a0b77b"
+            name="Get Config + bits"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="0e4e6ab4-772e-49a6-9aa4-dfcf0c6d6604"
+                LastKnownName="MessageOccurrenceSpecification19"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="98198ec0-aa98-4aa5-b720-6e222559a554"
+                LastKnownName="MessageOccurrenceSpecification20"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="6945f75c-4f20-4fc8-95b0-7ef29fe98a6a"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="456add81-0900-4db5-bf0e-d709355db0b0"
+                LastKnownName="MessageOccurrenceSpecification21"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="cb869599-a5eb-441e-af24-56736a87f15d"
+                LastKnownName="MessageOccurrenceSpecification22"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="69cdd5ff-db2a-4ab1-9b0b-08a077e669c1"
+            name="Signal completion"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="c44ed07b-14b9-42ec-9662-cefbf4766e29"
+                LastKnownName="MessageOccurrenceSpecification23"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="677dab7a-759c-4faf-a3f8-37358a060b7b"
+                LastKnownName="MessageOccurrenceSpecification24"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="91ed463d-697d-45ef-bb7f-5877675d4b02"
+            name="Shutdown VM"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="536187b3-c30e-4f38-9886-a2ddfcd5655f"
+                LastKnownName="MessageOccurrenceSpecification27"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="65afe679-846e-4b98-acfa-ffdbb53fa0f5"
+                LastKnownName="MessageOccurrenceSpecification28"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="c0e67991-514c-4c2f-98d9-66b99926beb1"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="3d679a76-8026-45ea-8b11-45441daa2b4a"
+                LastKnownName="MessageOccurrenceSpecification29"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="47d95a4e-2cc2-444d-981a-69cbcf0999b1"
+                LastKnownName="MessageOccurrenceSpecification30"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="99972360-a076-4c2e-b493-3ac558fc9365"
+            name="Pack"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="true">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="87416c64-5ef2-4949-adef-2db7f108b11a"
+                LastKnownName="MessageOccurrenceSpecification31"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="1f6fe05a-5c57-48c4-9b44-3bfefbf4705f"
+                LastKnownName="MessageOccurrenceSpecification32"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="167e44ca-3148-4394-a875-c3f93d94cb27"
+            name="Deploy"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="true">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="1ec68270-30d7-4956-8daa-d791562154e6"
+                LastKnownName="MessageOccurrenceSpecification33"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="052475d7-c914-4983-a1de-4bc969d242a3"
+                LastKnownName="MessageOccurrenceSpecification34"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="8a21d849-6322-4e3c-8265-c897e3b64f5d"
+            name="Notify Completion (i.e. email)"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="d8ff2960-60d2-41e4-afac-6b6a1a642088"
+                LastKnownName="MessageOccurrenceSpecification35"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f6bb5b24-5799-4e23-998c-73c91f677ed7"
+                LastKnownName="MessageOccurrenceSpecification36"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="a5397115-27e7-4966-b7c5-4dabaf621a75"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="ee023bb6-0b98-450d-859b-f1217fc15d20"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="70e7683a-5ae6-42e2-8ebc-1f5030c367e8"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="a32a28b0-ad29-4a5a-8eed-0ade6869a098"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="a0bb8c56-7a8d-4c5c-8df5-448741952cf3"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="2c78282b-1812-4391-8c37-4ac10c68c91b"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="3c550721-d938-42e7-9f9f-7676673bd09e"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="33157576-89aa-4ac3-aab1-6e96d611af06"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="702bddbd-44db-4845-95b2-50273966ebf1"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="67fb02d9-6ed7-4bb7-9a93-1052da4ab7c6"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="43f05e3d-2b9c-401a-b331-356a47e4ba3c"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="8258092e-73b8-420f-8a41-ad94b1f1e12a"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="78651cd1-cdb5-4ba1-b7f6-005314127ed9"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="66c269d7-62b6-4742-8f02-dcbe7c55ed11"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="d97bf68f-ee1f-49c4-819c-1f101dee7444"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="939d6bcb-0e21-4493-b776-6e0a8bba66c9"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="61bab31e-4aeb-445d-baf2-9f583ff81093"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="2f81da08-4e90-4f28-88bd-448c4cb2777f"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="53fba8f5-4829-46ed-bc33-074571383a3b"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="89e12e4a-99aa-42ed-8887-9a913ed16788"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="5400584d-d7ab-4186-aae6-22b5426d4042"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="4f8a7912-fb6e-41d3-b5d8-b72b8ac3db62"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="168e4a1c-b8d9-49f7-947b-513b17573d50"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="7010e10b-ad9e-4dfe-a17d-13afbc970916"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="ea77120c-e9e6-4ee2-ab30-1302d20b9a0b"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="67015fe8-ba31-49ff-89cd-391c2837e367"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="7b0c1138-341b-4854-9e51-b61c2a3b83e2"
+        name="Actor1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="5175903a-dc1a-4e9f-aa9b-46dac47be559"
+        name="UseCase1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <artifact
+        Id="e8023eaf-836d-4cdf-b8ea-303dc42c139a"
+        name="Artifact1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="ad4b45ec-f80e-4745-85e9-62eeee1ce1cb"
+        name="VMFactory.Services"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <providedInterface
+            Id="a0871f98-3704-4e4f-a644-7a357707d18f"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="863b0d7a-fdc3-49de-afc8-9ce2d686e8bb"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </type_NamedElement>
+          </providedInterface>
+          <requiredInterface
+            Id="70cc2894-f1a1-40be-9444-ae48ff82cd20"
+            name="Port2"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="7aff5e39-2676-4eeb-99f6-e9f5af495f79"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="e6ade965-ea9f-426c-9ad1-4f9ca4816a45"
+        name="VMFactory.Prototype.Orchestrator"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <requiredInterface
+            Id="c0063ac9-497d-4ced-ba6c-22b6786e9f90"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="0962dc16-7e96-4780-822c-9200ee1de22c"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+          <requiredInterface
+            Id="02bf1dde-e32b-4b15-907a-10270b78226c"
+            name="Port2"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="9ffe5a7c-9096-4e55-8f08-e88a55984029"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="f43d3cf2-ad40-4ade-92fa-8d2903eb6f44"
+        name="VMFactory.Presentation"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <requiredInterface
+            Id="b9052b3b-dad3-4473-9551-0198926b41ac"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="f5be6fd4-f6d6-43e2-9050-802e6d4c220c"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="3979aab2-a140-456e-a1f9-c3cc8127dfa6"
+        name="VMHost.ALMRangers.COM"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <part
+            Id="f9d31127-4f51-4b9b-888f-bca38fd50d7b"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="Composite"
+            isComposite="true">
+            <targetNamedElementsInternal>
+              <connector
+                Id="59912945-2380-474a-912c-6ad88ec30789"
+                isLeaf="false"
+                isStatic="false">
+                <requiredInterfaceMoniker
+                  Id="ccff9a01-27b6-4bb5-873e-8c25952edc8b"
+                  LastKnownName="Port1"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="b137fb19-5161-4020-a83c-aef0a6eeedba">
+                      <portWithPart>
+                        <requiredInterfaceMoniker
+                          Id="c0063ac9-497d-4ced-ba6c-22b6786e9f90"
+                          LastKnownName="Port1"
+                          LastKnownLocation="VMFactory.4.Modeling.uml" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="ede4e88d-1e53-43a5-b456-f1ad80807034" />
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+              </connector>
+              <connector
+                Id="a0668cde-341c-4872-a278-66b16a25fc50"
+                isLeaf="false"
+                isStatic="false">
+                <requiredInterfaceMoniker
+                  Id="71f61d4a-fbf3-42b8-b284-bfff87c5e30d"
+                  LastKnownName="Port2"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="637202ad-49ab-4488-afa3-508ec47daec8">
+                      <portWithPart>
+                        <requiredInterfaceMoniker
+                          Id="02bf1dde-e32b-4b15-907a-10270b78226c"
+                          LastKnownName="Port2"
+                          LastKnownLocation="VMFactory.4.Modeling.uml" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="681274d3-4cfb-49b8-a350-c262be4528e7" />
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+              </connector>
+            </targetNamedElementsInternal>
+            <type_NamedElement>
+              <componentMoniker
+                Id="e6ade965-ea9f-426c-9ad1-4f9ca4816a45"
+                LastKnownName="VMFactory.Prototype.Orchestrator"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </type_NamedElement>
+          </part>
+          <requiredInterface
+            Id="ccff9a01-27b6-4bb5-873e-8c25952edc8b"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <suppliersInternal>
+              <dependency
+                Id="99f40c7b-01be-4342-a74e-e596508a54e5">
+                <providedInterfaceMoniker
+                  Id="06f93304-3e1b-49d9-a74a-a8f06de6bd71"
+                  LastKnownName="Port1"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+              </dependency>
+            </suppliersInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="cd91697b-14fb-4918-8c24-465495a9dfe9"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+          <requiredInterface
+            Id="71f61d4a-fbf3-42b8-b284-bfff87c5e30d"
+            name="Port2"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <suppliersInternal>
+              <dependency
+                Id="ac6a9581-b58a-4a65-914c-ede2fbfa4efa">
+                <providedInterfaceMoniker
+                  Id="19273cd0-1d09-4e5f-9e17-b6411f95365d"
+                  LastKnownName="Port1"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+              </dependency>
+            </suppliersInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="5bb7d556-6df8-4869-a734-0bcaab4383b2"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="c6ae914f-4263-4e27-a8ef-8459a9a30542"
+        name="QA.ALMRangers.COM"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <part
+            Id="3d76e1ab-9fb4-4992-9d06-c8ad04660c56"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="Composite"
+            isComposite="true">
+            <targetNamedElementsInternal>
+              <connector
+                Id="aa6e01f4-c4d6-4293-8a9d-6244577a5d7b"
+                isLeaf="false"
+                isStatic="false">
+                <requiredInterfaceMoniker
+                  Id="85d68454-5e17-4367-86e9-fcc3b5e73d70"
+                  LastKnownName="Port2"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="df7d64e2-96b7-42ca-b54d-a5ec9127bcea">
+                      <portWithPart>
+                        <requiredInterfaceMoniker
+                          Id="70cc2894-f1a1-40be-9444-ae48ff82cd20"
+                          LastKnownName="Port2"
+                          LastKnownLocation="VMFactory.4.Modeling.uml" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="880cd5fe-83c2-4af2-be40-a4c15c45e548" />
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+              </connector>
+            </targetNamedElementsInternal>
+            <type_NamedElement>
+              <componentMoniker
+                Id="ad4b45ec-f80e-4745-85e9-62eeee1ce1cb"
+                LastKnownName="VMFactory.Services"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </type_NamedElement>
+          </part>
+          <part
+            Id="45385cbd-1f23-46a6-bd58-d7a96da3b30c"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="Composite"
+            isComposite="true">
+            <targetNamedElementsInternal>
+              <connector
+                Id="19b4b51f-0f71-425d-92c3-4c4e349f9fe3"
+                isLeaf="false"
+                isStatic="false">
+                <requiredInterfaceMoniker
+                  Id="85d68454-5e17-4367-86e9-fcc3b5e73d70"
+                  LastKnownName="Port2"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="36cf3272-a670-4516-8627-e0222706c1cd">
+                      <portWithPart>
+                        <requiredInterfaceMoniker
+                          Id="b9052b3b-dad3-4473-9551-0198926b41ac"
+                          LastKnownName="Port1"
+                          LastKnownLocation="VMFactory.4.Modeling.uml" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="27e02cf8-3e32-4df8-bf3b-4d32ba238034" />
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+              </connector>
+            </targetNamedElementsInternal>
+            <type_NamedElement>
+              <componentMoniker
+                Id="f43d3cf2-ad40-4ade-92fa-8d2903eb6f44"
+                LastKnownName="VMFactory.Presentation"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </type_NamedElement>
+          </part>
+          <providedInterface
+            Id="06f93304-3e1b-49d9-a74a-a8f06de6bd71"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <targetNamedElementsInternal>
+              <connector
+                Id="87eff899-4b82-4dfb-852c-c1ba8f1e2b02"
+                isLeaf="false"
+                isStatic="false">
+                <partMoniker
+                  Id="45385cbd-1f23-46a6-bd58-d7a96da3b30c"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="8cc1190c-4f22-4847-91ef-35914e3b7a16" />
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="9e0e0e52-2c82-49b6-ab2f-85dd2367e221" />
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+              </connector>
+              <connector
+                Id="fc6eda67-26f3-4a54-abfd-4feaa3db7e77"
+                isLeaf="false"
+                isStatic="false">
+                <partMoniker
+                  Id="3d76e1ab-9fb4-4992-9d06-c8ad04660c56"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="a2d2a18b-868a-490b-b169-a0558e65326b" />
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="a3e2bb1b-2fdd-442b-b8ec-3b949efa3493">
+                      <portWithPart>
+                        <providedInterfaceMoniker
+                          Id="a0871f98-3704-4e4f-a644-7a357707d18f"
+                          LastKnownName="Port1"
+                          LastKnownLocation="VMFactory.4.Modeling.uml" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+              </connector>
+            </targetNamedElementsInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="633dc8c4-5fc1-428e-ac1e-698cdeea4f68"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </type_NamedElement>
+          </providedInterface>
+          <requiredInterface
+            Id="85d68454-5e17-4367-86e9-fcc3b5e73d70"
+            name="Port2"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <suppliersInternal>
+              <dependency
+                Id="9e70821a-dfd0-4388-8a57-7719fa6c2fba">
+                <providedInterfaceMoniker
+                  Id="19273cd0-1d09-4e5f-9e17-b6411f95365d"
+                  LastKnownName="Port1"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+              </dependency>
+            </suppliersInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="aab2723c-1929-4a83-b5dd-8d5079d13059"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="2669d58e-5cd5-4efe-8573-d91073197d7d"
+        name="SQL.ALMRangers.COM"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <part
+            Id="a5233830-b9f5-4bd8-9a97-2d69007b0d71"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="Composite"
+            isComposite="true">
+            <type_NamedElement>
+              <componentMoniker
+                Id="85a977ff-6679-45c7-846f-4efa497dd3e7"
+                LastKnownName="VMFSupport.1.0.0.0"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </type_NamedElement>
+          </part>
+          <providedInterface
+            Id="19273cd0-1d09-4e5f-9e17-b6411f95365d"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <targetNamedElementsInternal>
+              <connector
+                Id="58bc6fa9-4138-4fc2-a041-f25c51907cad"
+                isLeaf="false"
+                isStatic="false">
+                <partMoniker
+                  Id="a5233830-b9f5-4bd8-9a97-2d69007b0d71"
+                  LastKnownLocation="VMFactory.4.Modeling.uml" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="b6c31667-f093-4fc4-a5b3-80490de858e1" />
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="fb27673d-7e7e-4d32-926d-9c45aacd1391">
+                      <portWithPart>
+                        <providedInterfaceMoniker
+                          Id="90d0c0af-8c48-49cb-bc5c-af3b2dbe0950"
+                          LastKnownName="Port1"
+                          LastKnownLocation="VMFactory.4.Modeling.uml" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+              </connector>
+            </targetNamedElementsInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="ca7b3262-1189-4f04-9e3e-a36814662953"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="c5d74aea-9d2e-4405-872a-54c5b83e5d93"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="5194c88f-64fa-464c-a0ab-0b7be27ac458"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="9c9b76be-2b53-4e4a-8baa-5502efa739d2"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="530efe0b-fbe2-4981-aacb-b7543cb28a26"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="9a729014-6d84-4193-bdb7-d54806fd56ad"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="33f92be2-d8a7-4e7b-aef2-44aee4792f1f"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="633dc8c4-5fc1-428e-ac1e-698cdeea4f68"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="cd91697b-14fb-4918-8c24-465495a9dfe9"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="0962dc16-7e96-4780-822c-9200ee1de22c"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="de6b5d35-a7de-4032-af30-b55677442e84"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="85a977ff-6679-45c7-846f-4efa497dd3e7"
+        name="VMFSupport.1.0.0.0"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <providedInterface
+            Id="90d0c0af-8c48-49cb-bc5c-af3b2dbe0950"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="9ceca001-0b71-4d06-ab60-ae58c874538e"
+                LastKnownLocation="VMFactory.4.Modeling.uml" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="ca7b3262-1189-4f04-9e3e-a36814662953"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="9ceca001-0b71-4d06-ab60-ae58c874538e"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="863b0d7a-fdc3-49de-afc8-9ce2d686e8bb"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="f5be6fd4-f6d6-43e2-9050-802e6d4c220c"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="aab2723c-1929-4a83-b5dd-8d5079d13059"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="7aff5e39-2676-4eeb-99f6-e9f5af495f79"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="5bb7d556-6df8-4869-a734-0bcaab4383b2"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="9ffe5a7c-9096-4e55-8f08-e88a55984029"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

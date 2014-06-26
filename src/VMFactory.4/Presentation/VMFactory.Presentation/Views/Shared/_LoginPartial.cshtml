@@ -1,0 +1,16 @@
+﻿@* @model VMFactory.Presentation.Models.UsersContext *@
+ <ul>
+@if (Request.IsAuthenticated) 
+{
+    <li>Welcome @ViewBag.Name</li>
+    <li>@Html.ActionLink("Log out", "Logout", "Home", routeValues: null, htmlAttributes: new { id = "logoutLink" })</li>
+    if (ViewBag.IsRegistered != null && !ViewBag.IsRegistered)
+    {
+        <li>@Html.ActionLink("Register", "Register", "Home", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+    }
+}
+else 
+{
+    <li>@Html.ActionLink("Log in", "Login", "Home", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+}
+</ul>

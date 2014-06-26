@@ -1,0 +1,64 @@
+﻿@model VMFactory.Api.Data.Models.VMOutput
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>VMOutput</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.VMTemplate.UniqueName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.VMTemplate.UniqueName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.VMRequest.DisplayName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.VMRequest.DisplayName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.FileName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.FileName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.DownloadUrl)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.DownloadUrl)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Log)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Log)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CreatedOn)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CreatedOn) UTC
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.LastModified)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.LastModified) UTC
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

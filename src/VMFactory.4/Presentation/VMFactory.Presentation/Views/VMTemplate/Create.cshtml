@@ -1,0 +1,68 @@
+﻿@model VMFactory.Api.Data.Models.VMTemplate
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>VMTemplate</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.UniqueName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.UniqueName)
+            @Html.ValidationMessageFor(model => model.UniqueName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.DisplayName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.DisplayName)
+            @Html.ValidationMessageFor(model => model.DisplayName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MdtBaseConfig)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MdtBaseConfig)
+            @Html.ValidationMessageFor(model => model.MdtBaseConfig)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.CreatedOn)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.CreatedOn)
+            @Html.ValidationMessageFor(model => model.CreatedOn)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.LastModified)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.LastModified)
+            @Html.ValidationMessageFor(model => model.LastModified)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

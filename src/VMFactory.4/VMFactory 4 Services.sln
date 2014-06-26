@@ -1,0 +1,259 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VMFactory.Services", "Services\VMFactory.Services\VMFactory.Services.csproj", "{E421E30A-9FED-42E6-AADC-A2C2FF2A2A0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{5736A48A-608E-41C4-8A37-4B28D5044ED8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{A981042C-02FE-43D2-8D2F-DC52FF891199}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{D7C68085-5337-4E5D-9D90-0C9E7BEC0F73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{B197BF8A-304B-4C18-8F58-E4F8B24C6254}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modeling", "Modeling", "{D4E5DFFC-0C93-4012-B71A-2D3D50B8DF4E}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "VMFactory.4.Modeling", "Modeling\VMFactory.4.Modeling\VMFactory.4.Modeling.modelproj", "{126AA06E-AC2A-429A-9424-55F56C2BF72D}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "VMFSupport", "Database\VMFSupport\VMFSupport.sqlproj", "{2B8313CA-88BA-4EDD-9C59-838DE7C984E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VMFactory.Api.Core", "Api\VMFactory.Api.Core\VMFactory.Api.Core.csproj", "{87CE1815-5F16-4C7F-BA76-213552EB1D26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VMFactory.Api.HyperV", "Api\VMFactory.Api.HyperV\VMFactory.Api.HyperV.csproj", "{AFC1F708-6058-4C9A-BC9B-5CE861224F04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VMFactory.Presentation", "Presentation\VMFactory.Presentation\VMFactory.Presentation.csproj", "{41295FFE-A059-404F-86D2-3F6EE0F8B376}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VMFactory.Api.Data", "Api\Data\VMFactory.Api.Data\VMFactory.Api.Data.csproj", "{5F001F41-A84D-4513-A8FB-4825934F1A6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VMFactory.Api.Business", "Business\VMFactory.Api.Business\VMFactory.Api.Business.csproj", "{01EE0FC1-CF5B-4B42-9EB6-EDC604C25475}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{74D64B86-2EC6-4EB6-ADF5-B3331546ED0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VMFactory.Engine", "Engine\VMFactory.Engine\VMFactory.Engine.csproj", "{09056536-EC8A-4C31-AD59-09FA1C603C2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{5E08ACB2-0FFD-4868-89EA-8226D738CB25}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prototype", "Prototype", "{8A33F360-331B-4A55-831B-26C53BA48C74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VMFactory.Prototype.Orchestrator", "Prototype\VMFactory.Prototype.Orchestrator\VMFactory.Prototype.Orchestrator.csproj", "{A6177723-0128-4F14-971E-988E6FC795D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VMBoot", "VMBoot", "{099C42F2-4F7E-4DB0-83BC-CE56CF2AF29C}"
+	ProjectSection(SolutionItems) = preProject
+		Prototype\VMBoot\PreLoadVHDBootData.ps1 = Prototype\VMBoot\PreLoadVHDBootData.ps1
+		Prototype\VMBoot\unattend.xml = Prototype\VMBoot\unattend.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{17C16BE5-0791-4C60-AF66-7536053E2079}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VMFactory.Orchestration.LaunchConditions", "Business\VMFactory.Orchestration.LaunchConditions\VMFactory.Orchestration.LaunchConditions.csproj", "{9E2CF156-31FD-421C-9B66-FDB730BBCF46}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 12
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://almrangers.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Services\\VMFactory.Services\\VMFactory.Services.csproj
+		SccProjectTopLevelParentUniqueName1 = VMFactory\u00204\u0020Services.sln
+		SccProjectName1 = Services/VMFactory.Services
+		SccLocalPath1 = Services\\VMFactory.Services
+		SccProjectUniqueName2 = Modeling\\VMFactory.4.Modeling\\VMFactory.4.Modeling.modelproj
+		SccProjectTopLevelParentUniqueName2 = VMFactory\u00204\u0020Services.sln
+		SccProjectName2 = Modeling/VMFactory.4.Modeling
+		SccLocalPath2 = Modeling\\VMFactory.4.Modeling
+		SccProjectUniqueName3 = Database\\VMFSupport\\VMFSupport.sqlproj
+		SccProjectTopLevelParentUniqueName3 = VMFactory\u00204\u0020Services.sln
+		SccProjectName3 = Database/VMFSupport
+		SccLocalPath3 = Database\\VMFSupport
+		SccProjectUniqueName4 = Api\\VMFactory.Api.Core\\VMFactory.Api.Core.csproj
+		SccProjectTopLevelParentUniqueName4 = VMFactory\u00204\u0020Services.sln
+		SccProjectName4 = Api/VMFactory.Api.Core
+		SccLocalPath4 = Api\\VMFactory.Api.Core
+		SccProjectUniqueName5 = Api\\VMFactory.Api.HyperV\\VMFactory.Api.HyperV.csproj
+		SccProjectTopLevelParentUniqueName5 = VMFactory\u00204\u0020Services.sln
+		SccProjectName5 = Api/VMFactory.Api.HyperV
+		SccLocalPath5 = Api\\VMFactory.Api.HyperV
+		SccProjectUniqueName6 = Presentation\\VMFactory.Presentation\\VMFactory.Presentation.csproj
+		SccProjectTopLevelParentUniqueName6 = VMFactory\u00204\u0020Services.sln
+		SccProjectName6 = Presentation/VMFactory.Presentation
+		SccLocalPath6 = Presentation\\VMFactory.Presentation
+		SccProjectUniqueName7 = Api\\Data\\VMFactory.Api.Data\\VMFactory.Api.Data.csproj
+		SccProjectTopLevelParentUniqueName7 = VMFactory\u00204\u0020Services.sln
+		SccProjectName7 = Api/Data/VMFactory.Api.Data
+		SccLocalPath7 = Api\\Data\\VMFactory.Api.Data
+		SccProjectUniqueName8 = Business\\VMFactory.Api.Business\\VMFactory.Api.Business.csproj
+		SccProjectTopLevelParentUniqueName8 = VMFactory\u00204\u0020Services.sln
+		SccProjectName8 = Business/VMFactory.Api.Business
+		SccLocalPath8 = Business\\VMFactory.Api.Business
+		SccProjectUniqueName9 = Engine\\VMFactory.Engine\\VMFactory.Engine.csproj
+		SccProjectTopLevelParentUniqueName9 = VMFactory\u00204\u0020Services.sln
+		SccProjectName9 = Engine/VMFactory.Engine
+		SccLocalPath9 = Engine\\VMFactory.Engine
+		SccProjectUniqueName10 = Prototype\\VMFactory.Prototype.Orchestrator\\VMFactory.Prototype.Orchestrator.csproj
+		SccProjectTopLevelParentUniqueName10 = VMFactory\u00204\u0020Services.sln
+		SccProjectName10 = Prototype/VMFactory.Prototype.Orchestrator
+		SccLocalPath10 = Prototype\\VMFactory.Prototype.Orchestrator
+		SccProjectUniqueName11 = Business\\VMFactory.Orchestration.LaunchConditions\\VMFactory.Orchestration.LaunchConditions.csproj
+		SccProjectTopLevelParentUniqueName11 = VMFactory\u00204\u0020Services.sln
+		SccProjectName11 = Business/VMFactory.Orchestration.LaunchConditions
+		SccLocalPath11 = Business\\VMFactory.Orchestration.LaunchConditions
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release.QA.ALMRangers.COM|Any CPU = Release.QA.ALMRangers.COM|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E421E30A-9FED-42E6-AADC-A2C2FF2A2A0A}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{E421E30A-9FED-42E6-AADC-A2C2FF2A2A0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E421E30A-9FED-42E6-AADC-A2C2FF2A2A0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E421E30A-9FED-42E6-AADC-A2C2FF2A2A0A}.DVD-5|Any CPU.ActiveCfg = Release|Any CPU
+		{E421E30A-9FED-42E6-AADC-A2C2FF2A2A0A}.Release.QA.ALMRangers.COM|Any CPU.ActiveCfg = Release.QA.ALMRangers.COM|Any CPU
+		{E421E30A-9FED-42E6-AADC-A2C2FF2A2A0A}.Release.QA.ALMRangers.COM|Any CPU.Build.0 = Release.QA.ALMRangers.COM|Any CPU
+		{E421E30A-9FED-42E6-AADC-A2C2FF2A2A0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E421E30A-9FED-42E6-AADC-A2C2FF2A2A0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E421E30A-9FED-42E6-AADC-A2C2FF2A2A0A}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{126AA06E-AC2A-429A-9424-55F56C2BF72D}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{126AA06E-AC2A-429A-9424-55F56C2BF72D}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{126AA06E-AC2A-429A-9424-55F56C2BF72D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{126AA06E-AC2A-429A-9424-55F56C2BF72D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{126AA06E-AC2A-429A-9424-55F56C2BF72D}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{126AA06E-AC2A-429A-9424-55F56C2BF72D}.Release.QA.ALMRangers.COM|Any CPU.ActiveCfg = Release.VMFactory.ALMRangers.COM|Any CPU
+		{126AA06E-AC2A-429A-9424-55F56C2BF72D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{126AA06E-AC2A-429A-9424-55F56C2BF72D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{126AA06E-AC2A-429A-9424-55F56C2BF72D}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{126AA06E-AC2A-429A-9424-55F56C2BF72D}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{2B8313CA-88BA-4EDD-9C59-838DE7C984E7}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{2B8313CA-88BA-4EDD-9C59-838DE7C984E7}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{2B8313CA-88BA-4EDD-9C59-838DE7C984E7}.CD_ROM|Any CPU.Deploy.0 = Release|Any CPU
+		{2B8313CA-88BA-4EDD-9C59-838DE7C984E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B8313CA-88BA-4EDD-9C59-838DE7C984E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B8313CA-88BA-4EDD-9C59-838DE7C984E7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2B8313CA-88BA-4EDD-9C59-838DE7C984E7}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B8313CA-88BA-4EDD-9C59-838DE7C984E7}.Release.QA.ALMRangers.COM|Any CPU.ActiveCfg = Release.VMFactory.ALMRangers.COM|Any CPU
+		{2B8313CA-88BA-4EDD-9C59-838DE7C984E7}.Release.QA.ALMRangers.COM|Any CPU.Build.0 = Release.VMFactory.ALMRangers.COM|Any CPU
+		{2B8313CA-88BA-4EDD-9C59-838DE7C984E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B8313CA-88BA-4EDD-9C59-838DE7C984E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B8313CA-88BA-4EDD-9C59-838DE7C984E7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2B8313CA-88BA-4EDD-9C59-838DE7C984E7}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{2B8313CA-88BA-4EDD-9C59-838DE7C984E7}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{2B8313CA-88BA-4EDD-9C59-838DE7C984E7}.SingleImage|Any CPU.Deploy.0 = Release|Any CPU
+		{87CE1815-5F16-4C7F-BA76-213552EB1D26}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{87CE1815-5F16-4C7F-BA76-213552EB1D26}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{87CE1815-5F16-4C7F-BA76-213552EB1D26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87CE1815-5F16-4C7F-BA76-213552EB1D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87CE1815-5F16-4C7F-BA76-213552EB1D26}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{87CE1815-5F16-4C7F-BA76-213552EB1D26}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{87CE1815-5F16-4C7F-BA76-213552EB1D26}.Release.QA.ALMRangers.COM|Any CPU.ActiveCfg = Release.VMFactory.ALMRangers.COM|Any CPU
+		{87CE1815-5F16-4C7F-BA76-213552EB1D26}.Release.QA.ALMRangers.COM|Any CPU.Build.0 = Release.VMFactory.ALMRangers.COM|Any CPU
+		{87CE1815-5F16-4C7F-BA76-213552EB1D26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87CE1815-5F16-4C7F-BA76-213552EB1D26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87CE1815-5F16-4C7F-BA76-213552EB1D26}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{87CE1815-5F16-4C7F-BA76-213552EB1D26}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{AFC1F708-6058-4C9A-BC9B-5CE861224F04}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{AFC1F708-6058-4C9A-BC9B-5CE861224F04}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{AFC1F708-6058-4C9A-BC9B-5CE861224F04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFC1F708-6058-4C9A-BC9B-5CE861224F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFC1F708-6058-4C9A-BC9B-5CE861224F04}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFC1F708-6058-4C9A-BC9B-5CE861224F04}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{AFC1F708-6058-4C9A-BC9B-5CE861224F04}.Release.QA.ALMRangers.COM|Any CPU.ActiveCfg = Release.VMFactory.ALMRangers.COM|Any CPU
+		{AFC1F708-6058-4C9A-BC9B-5CE861224F04}.Release.QA.ALMRangers.COM|Any CPU.Build.0 = Release.VMFactory.ALMRangers.COM|Any CPU
+		{AFC1F708-6058-4C9A-BC9B-5CE861224F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFC1F708-6058-4C9A-BC9B-5CE861224F04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFC1F708-6058-4C9A-BC9B-5CE861224F04}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{AFC1F708-6058-4C9A-BC9B-5CE861224F04}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{41295FFE-A059-404F-86D2-3F6EE0F8B376}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{41295FFE-A059-404F-86D2-3F6EE0F8B376}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{41295FFE-A059-404F-86D2-3F6EE0F8B376}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41295FFE-A059-404F-86D2-3F6EE0F8B376}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41295FFE-A059-404F-86D2-3F6EE0F8B376}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{41295FFE-A059-404F-86D2-3F6EE0F8B376}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{41295FFE-A059-404F-86D2-3F6EE0F8B376}.Release.QA.ALMRangers.COM|Any CPU.ActiveCfg = Release.VMFactory.ALMRangers.COM|Any CPU
+		{41295FFE-A059-404F-86D2-3F6EE0F8B376}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41295FFE-A059-404F-86D2-3F6EE0F8B376}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41295FFE-A059-404F-86D2-3F6EE0F8B376}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{41295FFE-A059-404F-86D2-3F6EE0F8B376}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{5F001F41-A84D-4513-A8FB-4825934F1A6C}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{5F001F41-A84D-4513-A8FB-4825934F1A6C}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{5F001F41-A84D-4513-A8FB-4825934F1A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F001F41-A84D-4513-A8FB-4825934F1A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F001F41-A84D-4513-A8FB-4825934F1A6C}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F001F41-A84D-4513-A8FB-4825934F1A6C}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{5F001F41-A84D-4513-A8FB-4825934F1A6C}.Release.QA.ALMRangers.COM|Any CPU.ActiveCfg = Release.VMFactory.ALMRangers.COM|Any CPU
+		{5F001F41-A84D-4513-A8FB-4825934F1A6C}.Release.QA.ALMRangers.COM|Any CPU.Build.0 = Release.VMFactory.ALMRangers.COM|Any CPU
+		{5F001F41-A84D-4513-A8FB-4825934F1A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F001F41-A84D-4513-A8FB-4825934F1A6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F001F41-A84D-4513-A8FB-4825934F1A6C}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{5F001F41-A84D-4513-A8FB-4825934F1A6C}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{01EE0FC1-CF5B-4B42-9EB6-EDC604C25475}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{01EE0FC1-CF5B-4B42-9EB6-EDC604C25475}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{01EE0FC1-CF5B-4B42-9EB6-EDC604C25475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01EE0FC1-CF5B-4B42-9EB6-EDC604C25475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01EE0FC1-CF5B-4B42-9EB6-EDC604C25475}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{01EE0FC1-CF5B-4B42-9EB6-EDC604C25475}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{01EE0FC1-CF5B-4B42-9EB6-EDC604C25475}.Release.QA.ALMRangers.COM|Any CPU.ActiveCfg = Release.VMFactory.ALMRangers.COM|Any CPU
+		{01EE0FC1-CF5B-4B42-9EB6-EDC604C25475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01EE0FC1-CF5B-4B42-9EB6-EDC604C25475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01EE0FC1-CF5B-4B42-9EB6-EDC604C25475}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{01EE0FC1-CF5B-4B42-9EB6-EDC604C25475}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{09056536-EC8A-4C31-AD59-09FA1C603C2B}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{09056536-EC8A-4C31-AD59-09FA1C603C2B}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{09056536-EC8A-4C31-AD59-09FA1C603C2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09056536-EC8A-4C31-AD59-09FA1C603C2B}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{09056536-EC8A-4C31-AD59-09FA1C603C2B}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{09056536-EC8A-4C31-AD59-09FA1C603C2B}.Release.QA.ALMRangers.COM|Any CPU.ActiveCfg = Release.VMFactory.ALMRangers.COM|Any CPU
+		{09056536-EC8A-4C31-AD59-09FA1C603C2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09056536-EC8A-4C31-AD59-09FA1C603C2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09056536-EC8A-4C31-AD59-09FA1C603C2B}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{09056536-EC8A-4C31-AD59-09FA1C603C2B}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{A6177723-0128-4F14-971E-988E6FC795D4}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{A6177723-0128-4F14-971E-988E6FC795D4}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{A6177723-0128-4F14-971E-988E6FC795D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6177723-0128-4F14-971E-988E6FC795D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6177723-0128-4F14-971E-988E6FC795D4}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6177723-0128-4F14-971E-988E6FC795D4}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{A6177723-0128-4F14-971E-988E6FC795D4}.Release.QA.ALMRangers.COM|Any CPU.ActiveCfg = Release.VMFactory.ALMRangers.COM|Any CPU
+		{A6177723-0128-4F14-971E-988E6FC795D4}.Release.QA.ALMRangers.COM|Any CPU.Build.0 = Release.VMFactory.ALMRangers.COM|Any CPU
+		{A6177723-0128-4F14-971E-988E6FC795D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6177723-0128-4F14-971E-988E6FC795D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6177723-0128-4F14-971E-988E6FC795D4}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{A6177723-0128-4F14-971E-988E6FC795D4}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{9E2CF156-31FD-421C-9B66-FDB730BBCF46}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{9E2CF156-31FD-421C-9B66-FDB730BBCF46}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{9E2CF156-31FD-421C-9B66-FDB730BBCF46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E2CF156-31FD-421C-9B66-FDB730BBCF46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E2CF156-31FD-421C-9B66-FDB730BBCF46}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E2CF156-31FD-421C-9B66-FDB730BBCF46}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{9E2CF156-31FD-421C-9B66-FDB730BBCF46}.Release.QA.ALMRangers.COM|Any CPU.ActiveCfg = Release.VMFactory.ALMRangers.COM|Any CPU
+		{9E2CF156-31FD-421C-9B66-FDB730BBCF46}.Release.QA.ALMRangers.COM|Any CPU.Build.0 = Release.VMFactory.ALMRangers.COM|Any CPU
+		{9E2CF156-31FD-421C-9B66-FDB730BBCF46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E2CF156-31FD-421C-9B66-FDB730BBCF46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E2CF156-31FD-421C-9B66-FDB730BBCF46}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{9E2CF156-31FD-421C-9B66-FDB730BBCF46}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E421E30A-9FED-42E6-AADC-A2C2FF2A2A0A} = {A981042C-02FE-43D2-8D2F-DC52FF891199}
+		{41295FFE-A059-404F-86D2-3F6EE0F8B376} = {5736A48A-608E-41C4-8A37-4B28D5044ED8}
+		{87CE1815-5F16-4C7F-BA76-213552EB1D26} = {D7C68085-5337-4E5D-9D90-0C9E7BEC0F73}
+		{AFC1F708-6058-4C9A-BC9B-5CE861224F04} = {D7C68085-5337-4E5D-9D90-0C9E7BEC0F73}
+		{5F001F41-A84D-4513-A8FB-4825934F1A6C} = {D7C68085-5337-4E5D-9D90-0C9E7BEC0F73}
+		{01EE0FC1-CF5B-4B42-9EB6-EDC604C25475} = {D7C68085-5337-4E5D-9D90-0C9E7BEC0F73}
+		{2B8313CA-88BA-4EDD-9C59-838DE7C984E7} = {B197BF8A-304B-4C18-8F58-E4F8B24C6254}
+		{126AA06E-AC2A-429A-9424-55F56C2BF72D} = {D4E5DFFC-0C93-4012-B71A-2D3D50B8DF4E}
+		{09056536-EC8A-4C31-AD59-09FA1C603C2B} = {74D64B86-2EC6-4EB6-ADF5-B3331546ED0A}
+		{A6177723-0128-4F14-971E-988E6FC795D4} = {8A33F360-331B-4A55-831B-26C53BA48C74}
+		{099C42F2-4F7E-4DB0-83BC-CE56CF2AF29C} = {8A33F360-331B-4A55-831B-26C53BA48C74}
+		{9E2CF156-31FD-421C-9B66-FDB730BBCF46} = {17C16BE5-0791-4C60-AF66-7536053E2079}
+	EndGlobalSection
+EndGlobal

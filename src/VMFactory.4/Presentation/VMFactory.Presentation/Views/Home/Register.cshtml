@@ -1,0 +1,33 @@
+﻿@model VMFactory.Presentation.Models.RegisterModel
+@{
+    ViewBag.Title = "Register";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+    <h2>Register with an invitation code.</h2>
+</hgroup>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary()
+
+    <fieldset>
+        <legend>Registration Form</legend>
+        <ol>
+            <li>
+                @Html.LabelFor(m => m.Name)
+                @Html.TextBoxFor(m => m.Name)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.EMail)
+                @Html.TextBoxFor(m => m.EMail)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.InvitationCode)
+                @Html.TextBoxFor(m => m.InvitationCode)
+            </li>
+        </ol>
+        <input type="submit" value="Register" />
+    </fieldset>
+}
